@@ -1,0 +1,288 @@
+{
+    "regions": [
+      {
+        "id": 1,
+        "name": "Arusha",
+        "districts": [
+          "Arusha District",
+          "Karatu",
+          "Ngorongoro",
+          "Monduli",
+          "Simanjiro"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Dar es Salaam",
+        "districts": [
+          "Ilala",
+          "Kinondoni",
+          "Temeke",
+          "Ubungo",
+          "Kigamboni"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Dodoma",
+        "districts": [
+          "Dodoma Urban",
+          "Bahi",
+          "Chamwino",
+          "Kondoa",
+          "Mpwapwa",
+          "Mtera"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Geita",
+        "districts": [
+          "Geita",
+          "Chato",
+          "Bukombe",
+          "Mbogwe",
+          "Nyang'hwale"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Iringa",
+        "districts": [
+          "Iringa Urban",
+          "Kilolo",
+          "Makete",
+          "Mufindi",
+          "Ludewa"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Kagera",
+        "districts": [
+          "Bukoba Urban",
+          "Bukoba Rural",
+          "Biharamulo",
+          "Karagwe",
+          "Misenyi",
+          "Ngara",
+          "Chato"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Kigoma",
+        "districts": [
+          "Kigoma Urban",
+          "Kigoma Rural",
+          "Kasulu",
+          "Uvinza",
+          "Buhigwe",
+          "Tanganyika"
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Kilimanjaro",
+        "districts": [
+          "Kilimanjaro",
+          "Hai",
+          "Moshi",
+          "Rombo",
+          "Same",
+          "Mwanga"
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Kwanza",
+        "districts": [
+          "Tanga",
+          "Korogwe",
+          "Pangani",
+          "Lushoto",
+          "Muheza"
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Lindi",
+        "districts": [
+          "Lindi Urban",
+          "Lindi Rural",
+          "Kilwa",
+          "Nachingwea",
+          "Ruangwa",
+          "Liwale"
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Manyara",
+        "districts": [
+          "Babati",
+          "Hanang",
+          "Kiteto",
+          "Simanjiro",
+          "Mbulu",
+          "Manyara"
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Mbeya",
+        "districts": [
+          "Mbeya Urban",
+          "Mbeya Rural",
+          "Chunya",
+          "Mbozi",
+          "Rungwe",
+          "Isangati",
+          "Kyela"
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Morogoro",
+        "districts": [
+          "Morogoro Urban",
+          "Morogoro Rural",
+          "Mvomero",
+          "Kilombero",
+          "Ulanga",
+          "Gairo",
+          "Kilosa"
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Mtwara",
+        "districts": [
+          "Mtwara Urban",
+          "Mtwara Rural",
+          "Nachingwea",
+          "Tandahimba",
+          "Masasi",
+          "Newala"
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Mwanza",
+        "districts": [
+          "Mwanza City",
+          "Misungwi",
+          "Magu",
+          "Sengerema",
+          "Ilemela",
+          "Ukerewe",
+          "Kwimba",
+          "Nyamagana"
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Njombe",
+        "districts": [
+          "Njombe",
+          "Wanging'ombe",
+          "Ludewa",
+          "Makete"
+        ]
+      },
+      {
+        "id": 17,
+        "name": "Pemba North",
+        "districts": [
+          "Wete",
+          "Micheweni",
+          "Chake Chake"
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Pemba South",
+        "districts": [
+          "Pemba South",
+          "Chake Chake",
+          "Wete",
+          "Micheweni"
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Rukwa",
+        "districts": [
+          "Sumbawanga Urban",
+          "Sumbawanga Rural",
+          "Nkasi",
+          "Kalambo"
+        ]
+      },
+      {
+        "id": 20,
+        "name": "Ruvuma",
+        "districts": [
+          "Songea",
+          "Mbinga",
+          "Namtumbo",
+          "Tunduru",
+          "Nyasa"
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Shinyanga",
+        "districts": [
+          "Shinyanga Urban",
+          "Shinyanga Rural",
+          "Maswa",
+          "Meatu"
+        ]
+      },
+      {
+        "id": 22,
+        "name": "Simiyu",
+        "districts": [
+          "Simiyu",
+          "Busega",
+          "Meatu",
+          "Maswa"
+        ]
+      },
+      {
+        "id": 23,
+        "name": "Singida",
+        "districts": [
+          "Singida Urban",
+          "Singida Rural",
+          "Iramba",
+          "Manyoni"
+        ]
+      },
+      {
+        "id": 24,
+        "name": "Tabora",
+        "districts": [
+          "Tabora Urban",
+          "Tabora Rural",
+          "Uyui",
+          "Igunga",
+          "Nzega"
+        ]
+      },
+      {
+        "id": 25,
+        "name": "Tanga",
+        "districts": [
+          "Tanga City",
+          "Korogwe",
+          "Muheza",
+          "Pangani",
+          "Lushoto",
+          "Handeni"
+        ]
+      }
+    ]
+  }
+  

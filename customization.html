@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Customization - Demaker Stride Fit</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="navbar">
+            <h1>Demaker Stride Fit</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="shop.html">Shop</a>
+                <a href="customization.html" class="active">Customization</a>
+                <a href="cart.html">Cart</a>
+                <a href="wishlist.html">Wishlist</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="contactus.html">Contact Us</a>
+                <a href="registration.html">Register</a>
+            </nav>
+        </header>
+
+        <main class="customization-container">
+            <h2>Customize Your Sportswear</h2>
+            <div class="customization-grid">
+                <div class="customization-options">
+                    <h3>Design Options</h3>
+                    <div class="option-group">
+                        <label>Base Color</label>
+                        <input type="color" id="baseColor" value="#ffffff">
+                    </div>
+                    <div class="option-group">
+                        <label>Text</label>
+                        <input type="text" id="customText" placeholder="Enter your text">
+                    </div>
+                    <div class="option-group">
+                        <label>Font Size</label>
+                        <input type="range" id="fontSize" min="12" max="48" value="24">
+                    </div>
+                    <button class="customize-btn">Apply Changes</button>
+                </div>
+                <div class="preview-area">
+                    <h3>Preview</h3>
+                    <div class="product-preview">
+                        <div id="previewCanvas" class="preview-canvas">
+                            Preview will appear here
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <p>© 2025 Demaker Stride Fit. All Rights Reserved.</p>
+                <div class="social-links">
+                    <a href="#">Facebook</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">Twitter</a>
+                </div>
+            </div>
+        </footer>
+
+        <script src="customization.js"></script>
+    </body>
+</html>
