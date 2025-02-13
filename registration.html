@@ -23,7 +23,7 @@
 
         <main class="registration-container">
             <h2>Create an Account</h2>
-            <form id="registrationForm" class="registration-form">
+            <form id="registrationForm" class="registration-form" action="api/register.php" method="POST">
                 <div class="form-group">
                     <label for="fullName">Full Name</label>
                     <input type="text" id="fullName" name="fullName" required>
@@ -86,5 +86,9 @@
         </footer>
 
         <script src="registration.js"></script>
+        <script src="app.js"></script>
+        <script src="script.js"></script>
+
+
     </body>
 </html>

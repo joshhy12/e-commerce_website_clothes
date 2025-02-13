@@ -3,7 +3,7 @@ require_once '../config/database.php';
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-header('Content-Type: application/json');
+header('Content-Type: text/html');
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     try {
@@ -44,14 +44,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         // Execute the statement
         $stmt->execute();
 
-        echo json_encode(['message' => 'Registration successful']);
+        echo '<script>
+                alert("Registration successful");
+                if (confirm("Do you want to go to the home page?")) {
+                    window.location.href = "home.html";
+                }
+              </script>';
     } catch (PDOException $e) {
         error_log($e->getMessage());
         http_response_code(500);
-        echo json_encode(['error' => 'Database error occurred']);
+        echo '<script>alert("Database error occurred");</script>';
     } catch (Exception $e) {
         http_response_code(400);
-        echo json_encode(['error' => $e->getMessage()]);
+        echo '<script>alert("' . $e->getMessage() . '");</script>';
     }
 }
 ?>
